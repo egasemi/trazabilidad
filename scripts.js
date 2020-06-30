@@ -52,6 +52,7 @@ $(document).ready(function(){
         })
         $("#registro").click(function(){
             window.open(rform + hash + '&entry.888917016=' + act,'_blank');
+            location.reload();
         })
         $("#datos-personales").click(function(){
             window.open(dpform + dni + "&entry.160733827=" + act,'_blank');
